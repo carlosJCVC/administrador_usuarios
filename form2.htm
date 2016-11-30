@@ -1,0 +1,18 @@
+<html>
+<body>
+<FORM ACTION="/cgi-bin/leerform.cgi" METHOD="POST">
+Datos Formulario:<p>
+Mensaje: <INPUT NAME="data" SIZE="60" MAXLENGTH="80"><BR>
+Usuario: <INPUT NAME="usuario" SIZE="30" MAXLENGTH="80"><BR>
+Clave: <INPUT NAME="clave" SIZE="30" MAXLENGTH="80"><BR>
+Shell: <select name=shell>
+	<option value="/bin/bash">/bin/bash
+	<option value="/bin/sh">/bin/sh
+	<option value="/usr/bin/csh">/usr/bin/csh
+	<option value="/bin/false">/bin/false
+       </select><br>
+<p>
+<INPUT TYPE="SUBMIT" VALUE="Send">
+</FORM>
+</body>
+
