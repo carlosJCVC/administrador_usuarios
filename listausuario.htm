@@ -1,0 +1,36 @@
+<html>
+	<head>
+	      <style type="text/css">
+              
+               a{font-size:20px;
+                text-decoration:none;
+                margin:10px 20px 10px 0px;
+                background:#3ba7e1;
+                color:#fff;
+                padding:10px 20px;
+                box-shadow:0px 5px 0px #000;  
+                } 
+              </style> 
+	</head>
+<body>
+
+<FORM ACTION="/cgi-bin/crear.cgi" METHOD="POST">
+Datos Formulario:<p>
+<!--Mensaje: <INPUT NAME="data" SIZE="60" MAXLENGTH="80"><BR>-->
+<center>Usuario: <INPUT NAME="usuario" SIZE="30" MAXLENGTH="80"><BR></center>
+<center>Clave: <INPUT NAME="clave" SIZE="30" MAXLENGTH="80"><BR></center>
+<center>Shell: <select name=shell></center>
+	<option value="/bin/bash">/bin/bash
+	<option value="/bin/sh">/bin/sh
+	<option value="/usr/bin/csh">/usr/bin/csh
+	<option value="/bin/false">/bin/false
+       </select><br>
+<p>
+<INPUT TYPE="SUBMIT" VALUE="Send">
+
+</FORM>
+
+<a href="/cgi-bin/liu.cgi"> listar usuarios</a>
+ 
+</body>
+
